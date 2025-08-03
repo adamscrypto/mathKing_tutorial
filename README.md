@@ -1,12 +1,26 @@
-# React + Vite
+# 📘 Maths Tutorial Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern web application built with React, Firebase, and TailwindCSS to provide high-quality math tutorials. The platform supports video and text-based learning across various mathematics topics, featuring an intuitive admin panel for content upload and user authentication.
 
-Currently, two official plugins are available:
+# Features
+- 📚 **Topics and Subtopics**: Organized by math topics and subtopics.
+- 🎥 **Video Tutorials**: Embedded YouTube videos for each subtopic.
+- 📝 **Text Lessons**: Supplementary explanations and lesson notes.
+- 🔐 **Admin Authentication**: Admins can log in to manage content (email/password-based).
+- 📦 **Firebase Integration**: Real-time database and authentication using Firebase.
+- 🌈 **Modern UI**: Built with TailwindCSS for a responsive and clean design.
+- 🔍 **Search/Filter**: Easily find relevant topics or videos.
+- ⚙️ **Routing**: Seamless navigation using React Router DOM.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Tech Stack
+- Frontend: React, Vite
+- Styling: Tailwind CSS
+- Backend: Firebase (Auth, Firestore, Storage)
+- Routing: React Router
+- State Management: React Hooks (`useState`, `useEffect`)
+- Deployment: (Netlify)
+
+## 📂 Project Structure
+
